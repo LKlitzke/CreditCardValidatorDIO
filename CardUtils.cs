@@ -32,18 +32,18 @@ namespace CreditCardValidatorDIO.CardUtils
             const RegexOptions options = RegexOptions.Compiled | RegexOptions.Singleline;
 
             Brands = new List<CardBrand>
-        {
-            new("American Express", new Regex(@"^(34|37)\d{13}$", options)),
-            new("Diners Club", new Regex(@"^(30[0-5]\d{11}|(36|38)\d{12})$", options)),
-            new("Discover", new Regex(@"^(6011\d{12}|65\d{14})$", options)),
-            new("EnRoute", new Regex(@"^(2014|2149)\d{11}$", options)),
-            new("JCB", new Regex(@"^35\d{13,14}$", options)),
-            new("MasterCard", new Regex(@"^5[1-5]\d{14}$", options)),
-            new("Visa", new Regex(@"^4(\d{12}|\d{15})$", options)),
-            new("Voyager", new Regex(@"^8699\d{11}$", options)),
-            new("HiperCard", new Regex(@"^606282\d{10}$", options)),
-            new("Aura", new Regex(@"^50\d{14}$", options))
-        };
+            {
+                new("American Express", new Regex(@"^(34|37)\d{13}$", options)),
+                new("Diners Club", new Regex(@"^(30[0-5]\d{11}|(36|38)\d{12})$", options)),
+                new("Discover", new Regex(@"^(6011\d{12}|65\d{14})$", options)),
+                new("EnRoute", new Regex(@"^(2014|2149)\d{11}$", options)),
+                new("JCB", new Regex(@"^35\d{13,14}$", options)),
+                new("MasterCard", new Regex(@"^5[1-5]\d{14}$", options)),
+                new("Visa", new Regex(@"^4(\d{12}|\d{15})$", options)),
+                new("Voyager", new Regex(@"^8699\d{11}$", options)),
+                new("HiperCard", new Regex(@"^606282\d{10}$", options)),
+                new("Aura", new Regex(@"^50\d{14}$", options))
+            };
         }
 
         /// <summary>
