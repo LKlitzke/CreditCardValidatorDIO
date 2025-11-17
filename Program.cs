@@ -1,4 +1,4 @@
-﻿using CreditCardValidatorDIO.CardUtils;
+﻿using CreditCardValidatorDIO;
 
 var keepAlive = true;
 
